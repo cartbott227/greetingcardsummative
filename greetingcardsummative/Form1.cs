@@ -47,27 +47,36 @@ namespace greetingcardsummative
             dateLabel.Visible = false;
             titleLabel.Visible = false;
             nameLabel.Visible = false;
-            fg.Clear(Color.White);
+            fg.Clear(Color.FromArgb(255,0,0,255));
 
             Thread.Sleep(250);
         
-            fg.Clear(Color.WhiteSmoke);
+            for (int i = 0; i < 255; i++)
+            {
+                Thread.Sleep(5);
+                fg.Clear(Color.FromArgb(255, 0, 0, 255-i));
+            }
+            //fg.Clear(Color.WhiteSmoke);
 
-            Thread.Sleep(250);
+            //Thread.Sleep(250);
 
-            fg.Clear(Color.LightGray);
+            //fg.Clear(Color.W);
 
-            Thread.Sleep(250);
+            //Thread.Sleep(250);
 
-            fg.Clear(Color.Gray);
+            //fg.Clear(Color.LightGray);
+
+            //Thread.Sleep(250);
+
+            //fg.Clear(Color.Gray);
                 
-            Thread.Sleep(250);
+            //Thread.Sleep(250);
 
-            fg.Clear(Color.DarkGray);
+            //fg.Clear(Color.DarkGray);
 
-            Thread.Sleep(250);
+            //Thread.Sleep(250);
 
-            fg.Clear(Color.Black);
+            //fg.Clear(Color.Black);
 
 
 
