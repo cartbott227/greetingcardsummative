@@ -52,31 +52,14 @@ namespace greetingcardsummative
             Thread.Sleep(250);
         
             for (int i = 0; i < 255; i++)
+
+            Thread.Sleep(250);
+
             {
                 Thread.Sleep(5);
                 fg.Clear(Color.FromArgb(255, 0, 0, 255-i));
             }
-            //fg.Clear(Color.WhiteSmoke);
-
-            //Thread.Sleep(250);
-
-            //fg.Clear(Color.W);
-
-            //Thread.Sleep(250);
-
-            //fg.Clear(Color.LightGray);
-
-            //Thread.Sleep(250);
-
-            //fg.Clear(Color.Gray);
-                
-            //Thread.Sleep(250);
-
-            //fg.Clear(Color.DarkGray);
-
-            //Thread.Sleep(250);
-
-            //fg.Clear(Color.Black);
+            
 
 
 

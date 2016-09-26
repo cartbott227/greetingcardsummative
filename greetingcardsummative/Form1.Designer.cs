@@ -40,9 +40,9 @@
             this.titleLabel.Font = new System.Drawing.Font("Sitka Text", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.Location = new System.Drawing.Point(21, 118);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(314, 42);
+            this.titleLabel.Size = new System.Drawing.Size(301, 42);
             this.titleLabel.TabIndex = 0;
-            this.titleLabel.Text = "Hydra Greeting Card";
+            this.titleLabel.Text = "Aries Greeting Card";
             this.titleLabel.Click += new System.EventHandler(this.titleLabel_Click);
             // 
             // nameLabel
@@ -71,7 +71,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.ForestGreen;
+            this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(356, 404);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.nameLabel);
@@ -79,7 +79,7 @@
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Hydra";
+            this.Text = "Aries";
             this.Click += new System.EventHandler(this.Form1_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
