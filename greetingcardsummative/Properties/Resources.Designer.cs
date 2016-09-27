@@ -59,16 +59,5 @@ namespace greetingcardsummative.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pict__hydra_constellations_except_zodiac__northern_and_southern___vector_stencils_library_png__diagram_flowchart_example {
-            get {
-                object obj = ResourceManager.GetObject("pict__hydra_constellations_except_zodiac__northern_and_southern___vector_stencils" +
-                        "_library_png__diagram_flowchart_example", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
