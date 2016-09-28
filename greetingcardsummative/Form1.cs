@@ -63,6 +63,11 @@ namespace greetingcardsummative
             Pen linePen = new Pen(Color.White, 1);
             fg.FillEllipse(starBrush, 54, 68, 10, 10);
 
+            Font drawFont = new Font("DejaVu Serif", 8, FontStyle.Bold);
+            SolidBrush drawBrush = new SolidBrush(Color.Yellow);
+            Font titleFont = new Font("Arial", 16, FontStyle.Bold);
+            SolidBrush titleBrush = new SolidBrush(Color.Red);
+
             Thread.Sleep(500);
 
             fg.FillEllipse(starBrush, 120, 95, 10, 10);
@@ -87,24 +92,31 @@ namespace greetingcardsummative
 
             fg.DrawLine(linePen, 172, 121, 195, 156);
 
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
+            fg.DrawString("Aries Constellation", titleFont, titleBrush, 150, 20);
 
+            Thread.Sleep(2000);
 
+            fg.DrawString("Aries is one of the constellations of the zodiac.", drawFont, drawBrush, 5, 235);
 
+            Thread.Sleep(2000);
 
+            fg.DrawString("It is located in the northern celestial hemisphere ", drawFont, drawBrush, 5, 250);
 
+            Thread.Sleep(2000);
 
+            fg.DrawString("between Pisces to the west and Taurus to the east.", drawFont, drawBrush, 5, 265);
 
+            Thread.Sleep(2000);
 
+            fg.DrawString("The name Aries is Latin for ram, it's shape is said to ", drawFont, drawBrush, 5, 280);
 
+            Thread.Sleep(2000);
 
-
-
-
-
-
-
+            fg.DrawString("resemble a rams horns.", drawFont, drawBrush, 5, 295);
+         
+            
 
 
         }
