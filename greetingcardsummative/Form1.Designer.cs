@@ -1,6 +1,6 @@
 ﻿namespace greetingcardsummative
 {
-    partial class Form1
+    partial class ariesCard
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ariesCard));
             this.titleLabel = new System.Windows.Forms.Label();
             this.nameLabel = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
+            this.ariesPicture = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.ariesPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -67,20 +69,33 @@
             this.dateLabel.Text = "September 20th, 2016";
             this.dateLabel.Click += new System.EventHandler(this.dateLabel_Click);
             // 
-            // Form1
+            // ariesPicture
+            // 
+            this.ariesPicture.Image = global::greetingcardsummative.Properties.Resources.aries;
+            this.ariesPicture.InitialImage = global::greetingcardsummative.Properties.Resources.aries;
+            this.ariesPicture.Location = new System.Drawing.Point(73, 163);
+            this.ariesPicture.Name = "ariesPicture";
+            this.ariesPicture.Size = new System.Drawing.Size(191, 174);
+            this.ariesPicture.TabIndex = 3;
+            this.ariesPicture.TabStop = false;
+            this.ariesPicture.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // ariesCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(356, 404);
+            this.Controls.Add(this.ariesPicture);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.titleLabel);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "ariesCard";
             this.Text = "Aries";
             this.Click += new System.EventHandler(this.Form1_Click);
+            ((System.ComponentModel.ISupportInitialize)(this.ariesPicture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,6 +106,7 @@
         private System.Windows.Forms.Label titleLabel;
         private System.Windows.Forms.Label nameLabel;
         private System.Windows.Forms.Label dateLabel;
+        private System.Windows.Forms.PictureBox ariesPicture;
     }
 }
 
